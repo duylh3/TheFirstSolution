@@ -1,0 +1,10 @@
+﻿@model IEnumerable<AppDTO.UserInfoDTO>
+
+@{ 
+    foreach(var item in Model)
+            {
+                <tr>
+                    <td>@item.CompanyName</td>
+                </tr>
+            }
+}
